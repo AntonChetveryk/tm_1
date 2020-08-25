@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["console","log"],"mappings":"2GAAAA,QAAQC,IAAI,W","file":"static/js/main.06be4ed6.chunk.js","sourcesContent":["console.log(\"hello\");\n"],"sourceRoot":""}
