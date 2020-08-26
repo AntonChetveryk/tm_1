@@ -1,0 +1,44 @@
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzvQF0xQAbmKHa5joLpWrLozNd2ciBFBkP4Q&usqp=CAU");
+}
+
+header {
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+}
+
+.info > div {
+  width: 33%;
+  padding: 10px;
+}
+
+button {
+  height: fit-content;
+  border-radius: 10%;
+  border: 1px solid white;
+  padding: 10px;
+  background: black;
+  color: white;
+  font-weight: bolder;
+}
+
+img {
+  height: 300px;
+  width: 80%;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+p,
+h3,
+h2,
+li {
+  color: white;
+}
+
+.planet-info,
+.starship-info,
+.hero-info {
+  height: 130px;
+}
