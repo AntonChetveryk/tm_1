@@ -45,7 +45,7 @@ function getInfo(url) {
 }
 
 function btnPlanetHandler() {
-  getInfo("planets/1")
+  getInfo("planets/1/")
     .then((res) => {
       if (btnPlanetActive) {
         const planetInfo = document.querySelector(".planet-info");
@@ -65,7 +65,7 @@ function btnPlanetHandler() {
 }
 
 function btnHeroHandler() {
-  getInfo("people/4")
+  getInfo("people/4/")
     .then((res) => {
       if (btnHeroActive) {
         const heroInfo = document.querySelector(".hero-info");
@@ -82,7 +82,7 @@ function btnHeroHandler() {
 }
 
 function btnStarshipHandler() {
-  getInfo("starships/2")
+  getInfo("starships/2/")
     .then((res) => {
       if (btnStarshipActive) {
         const starshipInfo = document.querySelector(".starship-info");
