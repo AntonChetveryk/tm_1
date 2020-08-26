@@ -40,7 +40,7 @@ function getInfo(url) {
         }
       })
       .then((res) => resolve(res))
-      .catch((res) => res.json().then((error) => reject(error)));
+      .catch((error) => reject(error));
   });
 }
 

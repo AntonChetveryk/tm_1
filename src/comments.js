@@ -11,7 +11,8 @@ function Comment(text) {
   };
 }
 
-btnComment.addEventListener("click", () => {
+btnComment.addEventListener("click", (e) => {
+  e.preventDefault();
   if (inputComment.value) {
     const comment = new Comment(inputComment.value);
     inputComment.value = "";
